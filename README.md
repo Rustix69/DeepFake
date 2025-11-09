@@ -4,14 +4,14 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-> **🎯 Hybrid CNN-Transformer architecture achieving 90%+ accuracy**  
+> **Hybrid CNN-Transformer architecture achieving 90%+ accuracy**  
 > **✅ Production-ready implementation with 97.3% face detection rate**
 
 Advanced deepfake detection system using **multi-region rPPG analysis** and **cross-region physiological consistency** to identify manipulated videos.
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # 1. Clone repository
@@ -34,13 +34,13 @@ cd ../..
 python train.py --epochs 100 --batch-size 32
 ```
 
-📖 **Detailed Guide:** [QUICK_START_GUIDE.md](QUICK_START_GUIDE.md)
+**Detailed Guide:** [QUICK_START_GUIDE.md](QUICK_START_GUIDE.md)
 
 ---
 
-## 📊 Dataset Setup
+## Dataset Setup
 
-**⚠️ The dataset (9.5 GB) is NOT included in this repository.**
+**WARNING: The dataset (9.5 GB) is NOT included in this repository.**
 
 ### Download Celeb-DF v2:
 
@@ -63,7 +63,7 @@ DeepFake/
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ### Novel Approach: Physiological Signal Inconsistency
 
@@ -101,7 +101,7 @@ Input: Video → Face Detection (97.3% rate)
 
 ---
 
-## 📈 Results
+## Results
 
 ### Validation Results (Test Set):
 
@@ -125,7 +125,7 @@ Input: Video → Face Detection (97.3% rate)
 
 ---
 
-## 🔬 Technical Details
+## Technical Details
 
 ### Core Components:
 
@@ -157,7 +157,7 @@ Input: Video → Face Detection (97.3% rate)
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 DeepFake/
@@ -176,7 +176,7 @@ DeepFake/
 
 ---
 
-## 🎯 Key Innovations
+## Key Innovations
 
 1. **Multi-Region Analysis:** 7 facial regions vs. single-region in prior work
 2. **Cross-Region Transformer:** Learned attention for consistency modeling
@@ -185,14 +185,14 @@ DeepFake/
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 - **[IMPLEMENTATION_COMPLETE.md](IMPLEMENTATION_COMPLETE.md)** - Complete technical documentation
 - **[QUICK_START_GUIDE.md](QUICK_START_GUIDE.md)** - Step-by-step usage guide
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 - Python 3.8+
 - PyTorch 2.0+
@@ -204,7 +204,7 @@ See [requirements.txt](requirements.txt) for full dependencies.
 
 ---
 
-## 🎓 Citation
+## Citation
 
 If you use this code in your research, please cite:
 
@@ -220,14 +220,14 @@ If you use this code in your research, please cite:
 
 ---
 
-## 📄 License
+## License
 
 This project is for **academic and research purposes only**.  
 All datasets and models used are subject to their respective licenses.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Celeb-DF v2 Dataset:** Li et al., "Celeb-DF: A Large-scale Dataset for DeepFake Forensics", CVPR 2020
 - **rPPG Methods:** 
@@ -237,10 +237,10 @@ All datasets and models used are subject to their respective licenses.
 
 ---
 
-## 📞 Contact
+## Contact
 
 For questions or issues, please open an issue on GitHub.
 
 ---
 
-**Built with ❤️ for robust deepfake detection**
+**Built for robust deepfake detection**

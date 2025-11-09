@@ -1,4 +1,4 @@
-# 🚀 QUICK START GUIDE
+#  QUICK START GUIDE
 
 ## Your Deepfake Detection System is READY!
 
@@ -7,7 +7,7 @@ All 14 TODOs completed with production-quality code!
 
 ---
 
-## 📊 What You Have Now
+##  What You Have Now
 
 ### ✅ Complete rPPG Extraction Pipeline
 - **97.3% face detection** rate (excellent!)
@@ -29,7 +29,7 @@ All 14 TODOs completed with production-quality code!
 
 ---
 
-## 🎯 THREE SIMPLE STEPS TO TRAIN
+##  THREE SIMPLE STEPS TO TRAIN
 
 ### Step 1: Process Full Dataset (2-3 hours)
 
@@ -100,7 +100,7 @@ All saved to `evaluation_results/`
 
 ---
 
-## 📈 Monitor Training
+##  Monitor Training
 
 ### TensorBoard (Real-time)
 
@@ -118,7 +118,7 @@ Open browser: `http://localhost:6006`
 
 ---
 
-## 🔧 Advanced Usage
+##  Advanced Usage
 
 ### Custom Training Script
 
@@ -179,7 +179,7 @@ evaluator.visualize_results(results, output_dir='final_results')
 
 ---
 
-## 📊 Performance Expectations
+##  Performance Expectations
 
 Based on your validated rPPG extraction and model architecture:
 
@@ -200,7 +200,7 @@ Based on your validated rPPG extraction and model architecture:
 
 ---
 
-## 🎓 Understanding the Results
+##  Understanding the Results
 
 ### Confusion Matrix
 
@@ -223,7 +223,7 @@ Actual Real  [ TN    FP ]
 
 ---
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### If accuracy is lower than expected:
 
@@ -250,7 +250,7 @@ Actual Real  [ TN    FP ]
 
 ---
 
-## 📝 For Your Paper/Thesis
+##  For Your Paper/Thesis
 
 ### Key Results to Report:
 
@@ -283,7 +283,7 @@ All generated automatically:
 
 ---
 
-## 🎯 What Makes This Special
+##  What Makes This Special
 
 ### Novel Contributions:
 
@@ -313,7 +313,7 @@ All generated automatically:
 
 ---
 
-## 🚀 READY TO GO!
+##  READY TO GO!
 
 **Everything is implemented. Zero compromises. Maximum accuracy.**
 
@@ -337,11 +337,11 @@ python train.py
 - Day 2-3: Train model (15-20 hours)
 - Day 3: Analyze results, generate paper figures
 
-**Expected accuracy: 90-95%** 🎯
+**Expected accuracy: 90-95%** 
 
 ---
 
-## 📞 Quick Reference
+##  Quick Reference
 
 ```bash
 # Project root
@@ -365,7 +365,7 @@ ls evaluation_results/
 
 ---
 
-**YOU'RE READY TO ACHIEVE 90%+ ACCURACY!** 🎉
+**YOU'RE READY TO ACHIEVE 90%+ ACCURACY!** 
 
-No more steps needed. Just run the commands above! 🚀
+No more steps needed. Just run the commands above! 
 

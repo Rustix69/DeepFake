@@ -1,4 +1,4 @@
-# 🚀 GitHub Upload Guide
+#  GitHub Upload Guide
 
 ## ✅ What Will Be Uploaded
 
@@ -15,17 +15,17 @@
 
 ## 🚫 What Will NOT Be Uploaded (in .gitignore)
 
-- ❌ Dataset: `Celeb-DF-v2/` (9.5 GB)
-- ❌ Virtual environment: `venv/` (2.1 GB)
-- ❌ Outputs: `outputs/`, `checkpoints/`, `logs/`
-- ❌ Model weights: `*.pth`, `*.pt`
-- ❌ Cache: `__pycache__/`, `*.pyc`
+-  Dataset: `Celeb-DF-v2/` (9.5 GB)
+-  Virtual environment: `venv/` (2.1 GB)
+-  Outputs: `outputs/`, `checkpoints/`, `logs/`
+-  Model weights: `*.pth`, `*.pt`
+-  Cache: `__pycache__/`, `*.pyc`
 
 **This is correct! Users will download the dataset separately.**
 
 ---
 
-## 📝 Step-by-Step Upload Process
+##  Step-by-Step Upload Process
 
 ### 1. Initialize Git (if not already done)
 
@@ -46,9 +46,9 @@ git status
 - ✅ requirements.txt
 
 **You should NOT see:**
-- ❌ Celeb-DF-v2/ 
-- ❌ venv/
-- ❌ outputs/ (except .gitkeep)
+-  Celeb-DF-v2/ 
+-  venv/
+-  outputs/ (except .gitkeep)
 
 ### 3. Add Files to Git
 
@@ -85,11 +85,11 @@ git branch -M main
 git push -u origin main
 ```
 
-**Done! Your code is now on GitHub!** 🎉
+**Done! Your code is now on GitHub!** 
 
 ---
 
-## 🔐 If You Have Authentication Issues
+##  If You Have Authentication Issues
 
 ### Option 1: Use Personal Access Token (Recommended)
 
@@ -114,7 +114,7 @@ git remote set-url origin git@github.com:YOUR_USERNAME/DeepFake.git
 
 ---
 
-## 📦 Verify Upload
+##  Verify Upload
 
 After pushing, check:
 1. Go to: `https://github.com/YOUR_USERNAME/DeepFake`
@@ -125,7 +125,7 @@ After pushing, check:
 
 ---
 
-## 🎨 Make Your Repo Look Professional
+##  Make Your Repo Look Professional
 
 ### Add Topics/Tags
 
@@ -147,7 +147,7 @@ git push
 
 ---
 
-## 📊 Repository Stats (After Upload)
+##  Repository Stats (After Upload)
 
 Your repo will show:
 - **Language:** Python (~95%)
@@ -157,7 +157,7 @@ Your repo will show:
 
 ---
 
-## 🚀 Users Will Clone & Setup Like This:
+##  Users Will Clone & Setup Like This:
 
 ```bash
 # Clone your repo
@@ -178,7 +178,7 @@ python train.py
 
 ---
 
-## ⚠️ Important Notes
+##  Important Notes
 
 1. **Never upload the dataset** - It's 9.5 GB and copyrighted
 2. **Never upload venv** - Users create their own
@@ -187,7 +187,7 @@ python train.py
 
 ---
 
-## 🎯 Quick Commands Reference
+##  Quick Commands Reference
 
 ```bash
 # Check status
@@ -210,4 +210,4 @@ git push
 
 ---
 
-**You're ready to upload! Just follow steps 1-7 above.** 🚀
+**You're ready to upload! Just follow steps 1-7 above.** 
