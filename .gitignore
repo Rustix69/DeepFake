@@ -1,0 +1,58 @@
+# Dataset (9.5 GB - DO NOT UPLOAD!)
+Celeb-DF-v2/
+
+# Python Virtual Environment
+venv/
+env/
+*.virtualenv
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Training Outputs
+outputs/
+checkpoints/
+logs/
+evaluation_results/
+*.pth
+*.pt
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.log
+*.csv
+*.json
+*.pkl
+*.pickle
+
+# But keep empty directories
+!outputs/.gitkeep
+!checkpoints/.gitkeep
+!logs/.gitkeep
+
+# Tensorboard
+events.out.tfevents.*
+
+# Model Weights (too large)
+*.h5
+*.hdf5
+*.onnx
