@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 > **Hybrid CNN-Transformer architecture achieving 90%+ accuracy**  
-> **✅ Production-ready implementation with 97.3% face detection rate**
+> **Production-ready implementation with 97.3% face detection rate**
 
 Advanced deepfake detection system using **multi-region rPPG analysis** and **cross-region physiological consistency** to identify manipulated videos.
 
