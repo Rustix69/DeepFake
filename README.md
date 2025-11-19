@@ -93,11 +93,11 @@ Input: Video → Face Detection (97.3% rate)
 ```
 
 **Key Features:**
-- ✅ **97.3% face detection** rate (production-ready)
-- ✅ **3 rPPG algorithms** (CHROM, POS, ICA)
-- ✅ **49 engineered features** per video
-- ✅ **4.1M parameters** (~16 MB model)
-- ✅ **Cross-region attention** for consistency analysis
+-  **97.3% face detection** rate (production-ready)
+-  **3 rPPG algorithms** (CHROM, POS, ICA)
+-  **49 engineered features** per video
+-  **4.1M parameters** (~16 MB model)
+-  **Cross-region attention** for consistency analysis
 
 ---
 
