@@ -15,11 +15,18 @@ __pycache__/
 
 # Training Outputs
 outputs/
-checkpoints/
 logs/
 evaluation_results/
-*.pth
-*.pt
+
+# Checkpoints - allow trained models but ignore temp checkpoints
+checkpoints/*.ckpt
+checkpoints/checkpoint_*.pth
+
+# Allow best trained models (for deployment)
+!checkpoints/best_model_simple.pth
+!checkpoints/best_model_enhanced.pth
+!checkpoints/best_model_optimized.pth
+!checkpoints/best_model_final.pth
 
 # Jupyter Notebooks
 .ipynb_checkpoints/
@@ -44,10 +51,14 @@ Thumbs.db
 *.pkl
 *.pickle
 
-# But keep empty directories
+# But keep empty directories and report files
 !outputs/.gitkeep
 !checkpoints/.gitkeep
 !logs/.gitkeep
+
+# Allow report visualizations
+!outputs/report_*.png
+!TRAINING_REPORT.md
 
 # Tensorboard
 events.out.tfevents.*
