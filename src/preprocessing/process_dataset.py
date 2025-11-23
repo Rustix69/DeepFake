@@ -5,7 +5,9 @@ Saves features for model training
 """
 
 import sys
-sys.path.append('..')
+import os
+# Add parent directory to path to allow imports
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import numpy as np
 import pandas as pd
@@ -16,10 +18,16 @@ from tqdm import tqdm
 import json
 import cv2
 
-from face_detection import FaceDetector
-from roi_extraction import ROIExtractor
-from rppg_extraction import RPPGExtractor
-from feature_extraction import DeepfakeFeatureExtractor, compute_deepfake_score
+try:
+    from .face_detection import FaceDetector
+    from .roi_extraction import ROIExtractor
+    from .rppg_extraction import RPPGExtractor
+    from .feature_extraction import DeepfakeFeatureExtractor, compute_deepfake_score
+except ImportError:
+    from face_detection import FaceDetector
+    from roi_extraction import ROIExtractor
+    from rppg_extraction import RPPGExtractor
+    from feature_extraction import DeepfakeFeatureExtractor, compute_deepfake_score
 
 
 class DatasetProcessor:
